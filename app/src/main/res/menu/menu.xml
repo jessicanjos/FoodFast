@@ -2,34 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/mNovoGrupo"
+        android:icon="@drawable/ic_baseline_groups"
+        android:title="Novo Grupo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mPagamentos"
+        android:icon="@drawable/ic_baseline_attach_money"
+        android:title="Pagamentos"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/mFav"
         android:icon="@drawable/ic_baseline_favorite"
-        android:title="Favoritos"
+        android:title="Mensagens Favoritas"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/mBuscar"
-        android:icon="@drawable/ic_baseline_search"
-        android:title="Buscar"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mConfiguracoes"
+        android:id="@+id/mConfig"
         android:icon="@drawable/ic_baseline_settings"
         android:title="Configurações"
         app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mHistorico"
-        android:icon="@drawable/ic_baseline_history"
-        android:title="Historico"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mSobre"
-        android:icon="@drawable/ic_baseline_info"
-        android:title="Sobre"
-        app:showAsAction="ifRoom" />
-    <item
-        android:id="@+id/mCompartilhar"
-        android:icon="@drawable/ic_baseline_share"
-        android:title="Compartilhar"
-        app:showAsAction="ifRoom" />
+
 
 </menu>
