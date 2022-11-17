@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PorcoesFragment">
+    tools:context=".PorcoesFragment"
+    android:background="#95A0A1">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -15,7 +16,8 @@
     <EditText
         android:id="@+id/edtPorcoes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnEscolha"
